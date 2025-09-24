@@ -1,7 +1,7 @@
 {
   "name": "Blendo Gestor de Recetas",
   "short_name": "Blendo",
-  "start_url": "/gestor-recetas/",
+  "start_url": "/index.html/",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0ea5e9",
@@ -15,3 +15,4 @@
   ]
 
 }
+
