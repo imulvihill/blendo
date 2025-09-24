@@ -1,16 +1,19 @@
-const CACHE_NAME = 'blendo-v1'; // Hemos cambiado el nombre del caché
+const CACHE_NAME = 'blendo-v3'; // Incrementamos la versión
 const urlsToCache = [
   '/blendo/',
   '/blendo/index.html',
-  '/blendo/icon-512x512.png'
+  '/blendo/icon-512x512.png',
+  'https://unpkg.com/react@18/umd/react.development.js',
+  'https://unpkg.com/react-dom@18/umd/react-dom.development.js',
+  'https://unpkg.com/@babel/standalone/babel.min.js'
 ];
 
-// Instalar el Service Worker y guardar los archivos en el caché
+// Instalar el Service Worker y guardar TODOS los archivos en el caché
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => {
-        console.log('Cache abierto, guardando archivos...');
+        console.log('Cache abierto, guardando archivos de la aplicación...');
         return cache.addAll(urlsToCache);
       })
   );
