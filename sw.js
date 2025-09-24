@@ -1,6 +1,6 @@
 const CACHE_NAME = 'blendo-cache-v1';
 const urlsToCache = [
-  './beldogeminis2.html',
+  './index.html',
   './icon-512x512.png'
 ];
 
@@ -26,3 +26,4 @@ self.addEventListener('fetch', event => {
   );
 
 });
+
