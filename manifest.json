@@ -1,0 +1,16 @@
+{
+  "name": "Blendo Gestor de Recetas",
+  "short_name": "Blendo",
+  "start_url": "./beldogeminis2.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
