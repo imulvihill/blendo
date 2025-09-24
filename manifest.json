@@ -1,7 +1,7 @@
 {
   "name": "Blendo Gestor de Recetas",
   "short_name": "Blendo",
-  "start_url": "./beldogeminis2.html",
+  "start_url": "/gestor-recetas/",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0ea5e9",
@@ -13,4 +13,5 @@
       "sizes": "512x512"
     }
   ]
+
 }
